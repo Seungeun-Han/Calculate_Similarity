@@ -3,7 +3,7 @@ This repository contains code to evaluate the similarity between two images base
 
 By comparing the histograms, we can gauge how visually similar two images are in terms of color distribution and intensity. This method is particularly useful in image retrieval, image matching, and various computer vision tasks where understanding the similarity between images is crucial.
 
-Features:
+## Features:
 
 - Computes histograms for input images.
 - Compares histograms using various metrics (e.g., Chi-Square, Correlation).
