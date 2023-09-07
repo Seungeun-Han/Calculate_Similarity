@@ -1,3 +1,5 @@
+# Copyright (c) 한승은. All rights reserved.
+
 import cv2
 import os
 import numpy as np
