@@ -3,6 +3,8 @@ This repository contains code to evaluate the similarity between two images base
 
 By comparing the histograms, we can gauge how visually similar two images are in terms of color distribution and intensity. This method is particularly useful in image retrieval, image matching, and various computer vision tasks where understanding the similarity between images is crucial.
 
+<br>
+
 ## Features:
 
 - Computes histograms for input images.
@@ -11,10 +13,16 @@ By comparing the histograms, we can gauge how visually similar two images are in
 
 Ideal for researchers, developers, and hobbyists looking to understand and implement histogram-based image comparison in their projects.
 
+<br>
+
 ## About cv2.compareHist()
 cv2.compareHist() is a function provided by OpenCV that is used to compare the similarity between two histograms. 
 
-This function supports various comparison methods, and here, we will explain two methods: __HISTCMP_CORREL__ and __HISTCMP_CHISQR__.
+This function supports various comparison methods, 
+
+and here, we will explain two methods: __HISTCMP_CORREL__ and __HISTCMP_CHISQR__.
+
+<br>
 
 ### HISTCMP_CORREL (Correlation)
 
@@ -26,6 +34,7 @@ A value closer to 1 indicates that the two histograms are very similar, while a 
 
 A value of 0 indicates no correlation between the two histograms.
 
+<br>
 
 ### HISTCMP_CHISQR (Chi-Square)
 
@@ -37,6 +46,7 @@ A value of 0 indicates that the two histograms are identical, and as the value i
 
 In summary, HISTCMP_CORREL is used to measure the similarity between two histograms, while HISTCMP_CHISQR is used to measure the difference between them.
 
+<br>
 
 ## Examples:
 Image 1 is from [CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ).
